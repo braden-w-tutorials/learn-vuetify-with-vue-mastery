@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-card>
+    <v-card width="400">
       <v-card-title> <h1 class="display-1">Hello</h1></v-card-title>
       <v-card-text>
         <v-form
