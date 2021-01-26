@@ -8,6 +8,10 @@
           <v-text-field label="Password" type="password"></v-text-field>
         </v-form>
       </v-card-text>
+      <v-card-actions>
+        <v-btn>Register</v-btn>
+        <v-btn>Login</v-btn>
+      </v-card-actions>
     </v-card>
   </v-app>
 </template>
