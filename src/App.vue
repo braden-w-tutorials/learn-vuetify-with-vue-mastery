@@ -12,6 +12,7 @@
             label="Password"
             type="password"
             prepend-icon="mdi-lock"
+            append-icon="mdi-eye-off"
           ></v-text-field>
         </v-form>
       </v-card-text>
