@@ -1,6 +1,8 @@
 <template>
   <v-app>
-    <v-card> <v-card-title> Hello</v-card-title></v-card>
+    <v-card>
+      <v-card-title> <h1 class="display-1">Hello</h1></v-card-title>
+    </v-card>
   </v-app>
 </template>
 
@@ -13,5 +15,5 @@ export default {
   data: () => ({
     //
   }),
-};
+}
 </script>
