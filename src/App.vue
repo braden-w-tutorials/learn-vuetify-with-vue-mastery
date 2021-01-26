@@ -10,7 +10,7 @@
           ></v-text-field>
           <v-text-field
             label="Password"
-            type="password"
+            :type="showPassword ? 'text' : 'password'"
             prepend-icon="mdi-lock"
             :append-icon="showPassword ? 'mdi-eye' : 'mdi-eye-off'"
             @click:append="showPassword = !showPassword"
