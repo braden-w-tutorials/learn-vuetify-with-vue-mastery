@@ -12,7 +12,7 @@
             label="Password"
             type="password"
             prepend-icon="mdi-lock"
-            append-icon="mdi-eye-off"
+            :append-icon="showPassword ? 'mdi-eye' : 'mdi-eye-off'"
           ></v-text-field>
         </v-form>
       </v-card-text>
@@ -31,9 +31,10 @@ export default {
   name: "App",
 
   components: {},
-
-  data: () => ({
-    //
-  }),
+  data() {
+    return {
+      showPassword: false,
+    }
+  },
 }
 </script>
